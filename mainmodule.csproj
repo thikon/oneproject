@@ -8,12 +8,15 @@
 
   <ItemGroup>
     <Compile Remove="submodulestest\**" />
+    <Compile Remove="twoproject\**" />
     <EmbeddedResource Remove="submodulestest\**" />
+    <EmbeddedResource Remove="twoproject\**" />
     <None Remove="submodulestest\**" />
+    <None Remove="twoproject\**" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="submodulestest\submodulestest.csproj" />
+    <ProjectReference Include="twoproject\submodulestest.csproj" />
   </ItemGroup>
 
 </Project>
